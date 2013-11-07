@@ -10,7 +10,7 @@ public abstract class Animal {
     
     public abstract void hacerRuido();
     
-        public abstract void comer();
+    public abstract void comer();
     
     public String getNombre() {
         return nombre;
