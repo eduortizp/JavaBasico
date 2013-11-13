@@ -1,4 +1,4 @@
-package app.clase2.pruebamediateca;
+package app.clase2.mediateca;
 
    public class Articulo {
         private int codigo;

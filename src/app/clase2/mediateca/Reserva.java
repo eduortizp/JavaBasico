@@ -1,4 +1,4 @@
-package app.clase2.pruebamediateca;
+package app.clase2.mediateca;
 
 import java.util.ArrayList;
 
