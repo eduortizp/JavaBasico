@@ -16,6 +16,10 @@ public class Producto {
         this.tipoProducto = tipoProducto;
     }
 
+    Producto(String antalgina) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public int getcodigo() {
         return codigo;
     }
