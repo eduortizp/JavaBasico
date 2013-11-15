@@ -16,11 +16,13 @@ public class VentaFinal {
         double descuento;
         double total;
 
+        //PRODUCTO CODIGO 1 = REGALOS / CODIGO 2 = MEDICAMENTOS
         System.out.print("Ingrese codigo de producto: ");
         codProducto = pago.nextInt();
 
         if (codProducto == 1) {
 
+            //LOCAL CODIGO 1 = BOTICA / CODIGO 2 = FARMACIA
             System.out.print("Ingrese codigo de local: ");
             codLocal = pago.nextInt();
 
@@ -39,6 +41,7 @@ public class VentaFinal {
 
         } else {
 
+            //RECETA CODIGO 1 = TIENE RECETA / CODIGO 2 = NO TIENE RECETA
             System.out.print("Cuenta con receta de Dr. registrado: ");
             codReceta = pago.nextInt();
 
