@@ -30,7 +30,7 @@ public class VentaFinal {
                 precio = pago.nextDouble();
                 descuento = (double) (precio * 0.15);
                 total = (double) (precio - descuento);
-                System.out.println("\n" + "Descuento (15): " + descuento + "\n" +"Total a pagar: " + total + "\t" + "Nuevos soles" + "\n" + "Gracias por su compra" + "\n");
+                System.out.println("\n" + "Descuento (15%): " + descuento + "\n" +"Total a pagar: " + total + "\t" + "Nuevos soles" + "\n" + "Gracias por su compra" + "\n");
 
             } else {
 
@@ -51,7 +51,7 @@ public class VentaFinal {
 
             } else {
 
-                System.out.println("\n" + "Lo sentimos necesita traer su receta medica" + "\n" + "Vuelva pronto" );
+                System.out.println("\n" + "Lo sentimos necesita traer su receta medica.......vuelva pronto" );
 
             }
         }
