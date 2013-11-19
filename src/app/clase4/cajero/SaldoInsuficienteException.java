@@ -1,4 +1,4 @@
-package app.clase3.excepcion;
+package app.clase4.cajero;
 
 public class SaldoInsuficienteException extends Exception {
 
