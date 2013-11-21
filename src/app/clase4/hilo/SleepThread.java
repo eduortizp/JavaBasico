@@ -7,8 +7,8 @@ public class SleepThread extends Thread {
 //
         for (int i = 0; i < 5; i++) {
             try {
-// 1000 ms
-                Thread.sleep(1000);
+// 2000 ms
+                Thread.sleep(2000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
