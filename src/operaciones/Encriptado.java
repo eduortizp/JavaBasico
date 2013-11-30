@@ -4,7 +4,7 @@ public class Encriptado {
 
     public static void main(String args[]) {
 
-        String mensaje = "Esto es un ejemplo de encriptado y desencriptado";
+        String mensaje = "12345";
         char array[] = mensaje.toCharArray();
 
         for (int i = 0; i < array.length; i++) {
