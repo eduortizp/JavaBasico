@@ -1,4 +1,4 @@
-package app.clase3.exepcion;
+package app.excepcion;
 
 public class Excepcion {
 

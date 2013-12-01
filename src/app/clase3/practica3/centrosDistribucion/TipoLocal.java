@@ -1,4 +1,4 @@
-package practica3.centrosDistribucion;
+package app.clase3.practica3.centrosDistribucion;
 
 import java.sql.Time;
 

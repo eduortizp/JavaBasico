@@ -1,4 +1,4 @@
-package operaciones;
+package app.clase5.operaciones;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,10 +1,10 @@
-package operaciones;
+package app.clase5.operaciones;
 
 public class Encriptado {
 
     public static void main(String args[]) {
 
-        String mensaje = "12345";
+        String mensaje = "123456789";
         char array[] = mensaje.toCharArray();
 
         for (int i = 0; i < array.length; i++) {

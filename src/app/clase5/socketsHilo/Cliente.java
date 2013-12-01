@@ -1,6 +1,5 @@
 package app.clase5.socketsHilo;
 
-import app.clase5.socketBasico.*;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
@@ -30,8 +29,8 @@ public class Cliente {
             // COMUNICACION 2
             out.println("CLIENTE: Hola Servidor");
             out.println("d");
+            out.println(99);
             out.println(9);
-            out.println(0);
 
             msg = in.readLine();
             System.out.println(msg);
