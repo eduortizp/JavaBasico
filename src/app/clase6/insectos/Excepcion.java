@@ -1,4 +1,4 @@
-package app.excepcion;
+package app.clase6.insectos;
 
 public class Excepcion {
 

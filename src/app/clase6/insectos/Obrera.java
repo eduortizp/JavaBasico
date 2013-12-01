@@ -1,8 +1,8 @@
-package app.insectos;
+package app.clase6.insectos;
 
-public class Reina extends Hymenoptera {
-
-    public Reina(String orden, String nombre, int tiempoVida, String descripcion) {
+public class Obrera extends Hymenoptera{
+    
+    public Obrera(String orden, String nombre, int tiempoVida, String descripcion){
         super(orden, nombre, tiempoVida, descripcion);
         this.setNombre(nombre);
         this.setTiempoVida(tiempoVida);
@@ -17,10 +17,10 @@ public class Reina extends Hymenoptera {
     public void trabajo() {
         System.out.println("Hace la miel");
     }
-
+    
     @Override
     public void comer() {
         System.out.println("Polen");
     }
-
+  
 }

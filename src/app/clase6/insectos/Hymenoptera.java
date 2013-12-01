@@ -1,4 +1,4 @@
-package app.insectos;
+package app.clase6.insectos;
 
 public abstract class Hymenoptera {
 
